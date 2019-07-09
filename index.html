@@ -10,7 +10,7 @@
 	<!-- Meta-Tags -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="keywords" content="Odyssey a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
+	<meta name="keywords" content="Service On The Fingers">
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //Meta-Tags -->
 
@@ -858,7 +858,9 @@
 	<!-- //Contact -->
 
 	<!-- Map -->
-	<div id="map"></div>
+	<div id="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21482.47708951134!2d104.87720079975118!3d11.56047844100411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951789a6f61d1%3A0xb97114fcd1015501!2sService+on+the+fingers!5e0!3m2!1sen!2skh!4v1562669707390!5m2!1sen!2skh" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
 	<!-- //Map -->
 
 	<!-- Social-Icons -->
@@ -899,7 +901,7 @@
 					<h4>ADDRESS</h4>
 					<address>
 						<ul>
-							<li>136 Russian Federation Blvd. (110), </li>
+							<li> <a href="https://goo.gl/maps/CtgkaNuqhuz931EF9" target="_new" style="cursor: pointer;" title="Click me to see the location!!!">970 Kampuchea Krom Blvd (128), Phnom Penh</a></li>
 							<li>Phnom Penh</li>
 							<li>Cambodia</li>
 							
@@ -1030,13 +1032,13 @@
 		function init() {
 			var mapOptions = {
 				zoom: 11,
-				center: new google.maps.LatLng(43.73333, 7.41667),
+				center: new google.maps.LatLng(11.566797, 104.891442),
 				styles: [{ "featureType": "all", "elementType": "labels.text.fill", "stylers": [{ "saturation": 36 }, { "color": "#000000" }, { "lightness": 40 }] }, { "featureType": "all", "elementType": "labels.text.stroke", "stylers": [{ "visibility": "on" }, { "color": "#000000" }, { "lightness": 16 }] }, { "featureType": "all", "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, { "featureType": "administrative", "elementType": "geometry.fill", "stylers": [{ "color": "#000000" }, { "lightness": 20 }] }, { "featureType": "administrative", "elementType": "geometry.stroke", "stylers": [{ "color": "#000000" }, { "lightness": 17 }, { "weight": 1.2 }] }, { "featureType": "landscape", "elementType": "geometry", "stylers": [{ "color": "#000000" }, { "lightness": 20 }] }, { "featureType": "poi", "elementType": "geometry", "stylers": [{ "color": "#000000" }, { "lightness": 21 }] }, { "featureType": "road.highway", "elementType": "geometry.fill", "stylers": [{ "color": "#000000" }, { "lightness": 17 }] }, { "featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [{ "color": "#000000" }, { "lightness": 29 }, { "weight": 0.2 }] }, { "featureType": "road.arterial", "elementType": "geometry", "stylers": [{ "color": "#000000" }, { "lightness": 18 }] }, { "featureType": "road.local", "elementType": "geometry", "stylers": [{ "color": "#000000" }, { "lightness": 16 }] }, { "featureType": "transit", "elementType": "geometry", "stylers": [{ "color": "#000000" }, { "lightness": 19 }] }, { "featureType": "water", "elementType": "geometry", "stylers": [{ "color": "#000000" }, { "lightness": 17 }] }]
 			};
 			var mapElement = document.getElementById('map');
 			var map = new google.maps.Map(mapElement, mapOptions);
 			var marker = new google.maps.Marker({
-				position: new google.maps.LatLng(43.73333, 7.41667),
+				position: new google.maps.LatLng(11.566797, 104.891442),
 				map: map,
 			});
 		}
